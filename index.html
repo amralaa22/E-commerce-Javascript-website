@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <!-- <link rel="stylesheet" href="style/nav.css"> -->
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="btn-top" id="myBtn">
+        Top
+    </div>
+    <div class="navbar" id="tnav">
+        <div class="container">
+            <a href="index.html" class="active">Home</a>
+            <a href="pages/about.html">About</a>
+            <a href="pages/contactus.html">contact us</a>
+            <a href="pages/cart.html">cart</a>
+        </div>
+    </div>
+    <div class="carousel">
+        <div class="slider-container">
+            <div class="myslides">
+                <img src="./imgs/img4.jpg" style="width:100%"> <br>
+                <div class="text">Online Store</div>
+            </div>
+            <div class="myslides">
+                <img src="./imgs/img3.jpg" style="width:100%"> <br>
+                <div class="text">Labtops</div>
+            </div>
+            <div class="myslides">
+                <img src="./imgs/img1.webp" style="width:100%"> <br>
+                <div class="text">Smart Phones</div>
+            </div>
+            <div class="myslides">
+                <img src="./imgs/img3.jpeg" style="width:100%"> <br>
+                <div class="text">Home Decoration</div>
+            </div>
+            <div class="buttons">
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+        </div>
+        <div class="dots" style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>
+        </div>
+    </div>
+<main>
+<section class="categories">
+<div class="container">
+    <div>
+        <ul class="cat_list" id="cat_list">
+            <li id="a1l">ALL</li>
+            <li id="smart">Smart Phones</li>
+            <li id="lab">Labtops</li>
+            <li id="make">Makeup</li>
+            <li id="cars">Cars</li>
+        </ul>
+    </div>
+    <div class="products" id="category">
+
+    </div>
+</div>
+</section>
+
+
+
+</main>
+    <footer>
+        <div class="footer">
+            <ul class="socials">
+                <li><a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://twitter.com/?lang=en"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://github.com/"><i class="fa fa-github"></i></a></li>
+                <li><a href="https://www.linkedin.com/feed/"><i class="fa fa-linkedin-square"></i></a></li>
+                <li><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+@import 'global';
+@import 'nav';
+@import 'slider';
+@import 'about';
+@import 'contact_form';
+@import 'cart';
+main{
+    min-height: 100vh;
+    background-color: #717171;
+}
+
+
+@import 'categories';
+@import 'footer';

@@ -1,0 +1,33 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+  }
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+.btn-top{
+    position: fixed;
+    background-color: red;
+    padding: 10px;
+    right: 20px;
+    bottom: 20px;
+    z-index: 99999;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    &:after{
+        content: '';
+        position: absolute;
+        top: -50px;
+        left: 0;
+        right: 0;
+        cursor: pointer;
+        border: 25px solid;
+        border-color: transparent transparent red transparent;
+        // background-color: aqua;
+    }
+
+}
